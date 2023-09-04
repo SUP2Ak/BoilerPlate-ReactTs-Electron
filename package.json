@@ -72,7 +72,7 @@
     "concurrently": "^8.2.1",
     "cross-env": "^7.0.3",
     "electron": "^26.1.0",
-    "electron-builder": "^24.6.3",
+    "electron-builder": "^24.6.4",
     "ts-loader": "^9.4.4",
     "wait-on": "^7.0.1",
     "webpack": "^5.88.2",
