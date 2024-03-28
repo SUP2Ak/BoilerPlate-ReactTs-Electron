@@ -1830,12 +1830,12 @@
   dependencies:
     "@mantine/utils" "6.0.10"
 
-"@mantine/notifications@^7.6.2":
-  version "7.6.2"
-  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-7.6.2.tgz#d09577e7b8ef2da07bc256ce9c9029f135450181"
-  integrity sha512-vLs6Y5nnxHipGkA5TSsxgjeus0N9uS+0+E9KZ5OG5QEtz7BdOsKPtNmytsQzBN8P8fjttFImhhoSUOLpYv0xtA==
+"@mantine/notifications@^7.7.0":
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-7.7.0.tgz#809a70149f96f78d5077c7991511b225303000aa"
+  integrity sha512-YutgZ+vf81/qPdadCX+OmXsPlgMpBuIn8TRhgeALt/qtdv80jUnTsyNdhMBCcRCm0txmLCItWtuXuW6glsHd4A==
   dependencies:
-    "@mantine/store" "7.6.2"
+    "@mantine/store" "7.7.0"
     react-transition-group "4.4.5"
 
 "@mantine/prism@^6.0.10":
@@ -1846,10 +1846,10 @@
     "@mantine/utils" "6.0.10"
     prism-react-renderer "^1.2.1"
 
-"@mantine/store@7.6.2":
-  version "7.6.2"
-  resolved "https://registry.yarnpkg.com/@mantine/store/-/store-7.6.2.tgz#89f9d8bc99f834a85b8adcfb8c1316df69416e78"
-  integrity sha512-IEGbyIs7LIXYQtjR87GQPiw12klgsiKiqplGu9LekJb8uW/7XSRNs31ggqKmdF+cMWO/WyQhEXZdpWNib6tVOw==
+"@mantine/store@7.7.0":
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@mantine/store/-/store-7.7.0.tgz#ebc992c6aeff688a33d95b4bd4cd858e8b77ce6d"
+  integrity sha512-tbw73JQQjIbHiGZ/5f36bWk6eV+01cVGVtq6l7Q0S2dibkU9H8+ynAk+goNuUTaQk0lUpqUflxMJS4xXdS5Q6A==
 
 "@mantine/styles@6.0.10":
   version "6.0.10"
