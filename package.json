@@ -22,7 +22,7 @@
     "@types/jest": "^29.5.12",
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.78",
-    "@types/react-dom": "^18.2.24",
+    "@types/react-dom": "^18.2.25",
     "dayjs": "^1.11.10",
     "electron-devtools-installer": "^3.2.0",
     "electron-reload": "^1.5.0",
