@@ -15,7 +15,7 @@
     "@mantine/modals": "^6.0.10",
     "@mantine/notifications": "^7.12.2",
     "@mantine/prism": "^6.0.10",
-    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^15.0.7",
     "@testing-library/user-event": "^14.5.2",
     "@types/electron-devtools-installer": "^2.2.5",
