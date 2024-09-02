@@ -74,7 +74,7 @@
     "electron": "^32.0.1",
     "electron-builder": "^24.13.3",
     "ts-loader": "^9.5.1",
-    "wait-on": "^7.2.0",
+    "wait-on": "^8.0.0",
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4"
   }
