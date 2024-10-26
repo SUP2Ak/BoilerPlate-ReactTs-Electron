@@ -1,81 +1,18 @@
 {
-  "name": "my-app",
+  "name": "electron-nextjs-app",
   "version": "1.0.0",
-  "author": "Your Name",
-  "description": "React TypeScript Electron Boilerplate",
-  "homepage": ".",
-  "main": "build/electron/main.js",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.13.3",
-    "@mantine/core": "^6.0.10",
-    "@mantine/dates": "^6.0.10",
-    "@mantine/form": "^7.13.4",
-    "@mantine/hooks": "^6.0.10",
-    "@mantine/modals": "^6.0.10",
-    "@mantine/notifications": "^7.13.4",
-    "@mantine/prism": "^6.0.10",
-    "@testing-library/jest-dom": "^6.6.2",
-    "@testing-library/react": "^15.0.7",
-    "@testing-library/user-event": "^14.5.2",
-    "@types/electron-devtools-installer": "^2.2.5",
-    "@types/jest": "^29.5.14",
-    "@types/node": "^22.7.9",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "dayjs": "^1.11.13",
-    "electron-devtools-installer": "^3.2.0",
-    "electron-reload": "^1.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "typescript": "^5.6.3",
-    "web-vitals": "^4.2.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "postinstall": "electron-builder install-app-deps",
-    "electron:dev": "concurrently \"cross-env BROWSER=none yarn start\" \"wait-on http://127.0.0.1:3000 && tsc -p electron -w\" \"wait-on http://127.0.0.1:3000 && tsc -p electron && electron .\"",
-    "electron:build": "yarn build && tsc -p electron && electron-builder",
-    "eject": "react-scripts eject"
-  },
-  "build": {
-    "extends": null,
-    "files": [
-      "build/**/*"
-    ],
-    "directories": {
-      "buildResources": "assets"
-    }
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "main": "electron/main.ts",
+"scripts": {
+  "dev": "concurrently \"pnpm next\" \"pnpm electron:dev\"",
+  "next": "next dev -p 3000",
+  "electron:dev": "wait-on tcp:3000 && tsc -p electron && electron electron/dist/main.js"
   },
   "devDependencies": {
+    "@types/electron": "^24.4.0",
+    "@types/node": "^18.17.5",
     "concurrently": "^9.0.1",
-    "cross-env": "^7.0.3",
-    "electron": "^33.0.2",
-    "electron-builder": "^25.1.8",
-    "ts-loader": "^9.5.1",
-    "wait-on": "^8.0.1",
-    "webpack": "^5.95.0",
-    "webpack-cli": "^5.1.4"
+    "electron": "^33.0.0",
+    "typescript": "^5.2.2",
+    "wait-on": "^7.0.1"
   }
 }

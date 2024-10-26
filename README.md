@@ -1,1 +1,0 @@
-BoilerPlate react typescript electron app + mantine
